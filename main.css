@@ -1,0 +1,44 @@
+* { box-sizing: border-box; }
+body { height: 100vh; margin: 0; }
+.bg-red { 
+    background-color: red;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-cyan {
+    background-color: cyan;
+}
+
+.bg-magenta {
+    background-color: magenta;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.circle {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
